@@ -1,15 +1,1 @@
-.nav-container {
-  display: flex;
-  height: 55px;
-  width: 1167px;
-}
-.nav-list ul {
-  display: flex;
-  grid-template-columns: repeat(7, 1fr);
-  height: 55px;
-  width: 783px;
 
-
-
-  
-}
