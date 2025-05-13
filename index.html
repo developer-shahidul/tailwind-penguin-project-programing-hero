@@ -24,23 +24,35 @@
   </head>
 
   <body class="font-roboto">
-    <header class="bg-yellow-50 pl-4">
-      <nav class="">
-        <div class="nav-container">
-          <h3>Laura Portfolio</h3>
-          <div class="nav-list">
-            <ul>
-              <li class=""><a href="">Home</a></li>
-              <li><a href="">About me</a></li>
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">Reviews</a></li>
-              <li><a href="">FAQ</a></li>
-              <li><a href="">Contact</a></li>
-              <li>
-                <button>Contact<i class="fa-solid fa-arrow-right"></i></button>
-              </li>
-            </ul>
-          </div>
+    <header class="bg-yellow-50 pl-4 pt-10 header-bg-img">
+      <nav
+        class="flex flex-row lg:justify-around justify-between items-center md:w-[calc(100%-100px)]"
+      >
+        <div class="flex items-center gap-3">
+          <img src="./images/Group 33071.png" alt="" />
+          <h3 class="font-bold text-[#A4BC46] text-[26px] font-roboto">
+            Penguin <span class="text-[#363958]"> Fashion</span>
+          </h3>
+        </div>
+        <div>
+          <img
+            class="h-8 w-8 lg:hidden cursor-pointe"
+            src="./images/threeline.png"
+            alt=""
+          />
+          <ul
+            class="hidden lg:flex flex-col lg:flex-row gap-14 text-xs font-roboto text-[#3C3C3C]"
+          >
+            <li class=""><a href="">Home</a></li>
+            <li><a href="">About me</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Reviews</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Contact</a></li>
+            <li>
+              <button>Contact<i class="fa-solid fa-arrow-right"></i></button>
+            </li>
+          </ul>
         </div>
       </nav>
 
@@ -52,7 +64,7 @@
             Be the Penguins <br />
             <span class="text-stone-800">of Winter</span>
           </h1>
-          <p class="accent-yellow-100">
+          <p class="text-[#3E3E3E] text-basc font-roboto">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
@@ -219,7 +231,7 @@
         >
           Man Jacket
         </h1>
-        <!--man jeket card one  start-->
+        <!--man jeket card two start-->
 
         <div
           class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 mb-4"
@@ -263,7 +275,7 @@
               </button>
             </div>
           </div>
-          <!--man jeket card two  start-->
+          <!--man jeket card three  start-->
 
           <div class="p-5 drop-shadow-lg bg-[#FFFFFF] rounded-3xl">
             <img
@@ -349,7 +361,9 @@
         </div>
       </section>
 
-      <div class="flex flex-col gap-20 md:p-32 p-3 items-center md:flex-row">
+      <section
+        class="flex flex-col gap-20 md:p-32 p-3 items-center md:flex-row"
+      >
         <div
           class="grid grid-rows-3 md:flex-1 lg:flex-1 gap-4 mb-20 order-2 md:order-1 lg:order-1"
         >
@@ -396,7 +410,7 @@
         <div class="md:flex-1 lg:flex-1 order-1 md:order-2 lg:order-2">
           <img src="./images/shopping.png" alt="" />
         </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>
